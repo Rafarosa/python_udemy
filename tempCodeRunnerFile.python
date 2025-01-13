@@ -1,8 +1,0 @@
-peixe_pescado = float('informe o peso do peixe pescado: ')
-
-if peixe_pescado > 50:
-    peixe_mais = peixe_pescado - 50
-    multa = peixe_mais * 4
-    print(f"você excedeu o limite de pesca hoje em {peixe_mais}, valor da multa é de R${multa}")
-else:
-    print(f'Você pescou {peixe_pescado}, está dentro da regulamentação!!')
